@@ -23,7 +23,7 @@ class shortMessageService:
         self.text_of_sms = text_of_sms
         global last_id
         last_id += 1
-        self.id = last_id
+        self.id = last_id 
 
     def search(self, filter):
         """
